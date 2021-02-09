@@ -1,5 +1,5 @@
 # How to create a dedicated Valheim server on a VPS
-This will most likely work on all VPS providers, however, I used [Hyper Expert](https://www.hyperexpert.com/hosting.php). If you want to know more about them go to the [Hyper Expert Discord](https://discord.gg/wFvF43C)
+This will most likely work on all VPS providers, however, I used [Hyper Expert](p.hyper.expert/aff.php?aff=138). If you want to know more about them go to the [Hyper Expert Discord](https://discord.gg/wFvF43C)
 
 ## Prerequisites for Hyper Expert
 - Based in the United States (Recommended based on server locations)
