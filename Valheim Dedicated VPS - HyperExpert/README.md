@@ -146,7 +146,7 @@ Save the file (Ctrl + X, press Y to say yes, hit enter to save) and now you can 
 ```
 
 On the VPS the server will take about 10-15 minutes to start. Just keep waiting, I promise you it will start. 
--Let the server start up once before transferring your world files to the server.
+- Let the server start up once before transferring your world files to the server.
 
 Hit `RETURN`(also known as `Enter` key) if you want to stop the server.
 This is fine to get started as quick as possible, but I like to build a service around this just in case my server crashes and I want better control than just using the same command over and over again, so if you are interested, you might want to check `Step 7`.
