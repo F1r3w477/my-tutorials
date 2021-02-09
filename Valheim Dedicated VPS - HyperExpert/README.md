@@ -6,7 +6,7 @@ This will most likely work on all VPS providers, however, I used [Hyper Expert](
 
 ## Step 1 - Get a VPS server! 1vCPU 3GB of RAM minimum. (May not support full 10 players, max tested on 3GB is 6)
 I got mine from from Hyper Expert, if you want one from them follow the steps below:
-Go to [Hyper Expert](http://p.hyper.expert/aff.php?aff=138) and select the VPS you want and configure. 
+Go to [Hyper Expert](http://p.hyper.expert/aff.php?aff=138) and select Services > VPS & Bare Metal Servers, then select the VPS you want and configure it. 
 - The bare minimum you should get is their VPS1 with 1vCPU, 3GB of RAM, 20GB storage on Pure SSD (You **MUST** configure the service to upgrade to 3GB) only $5.99 per month
 - Make sure you select New York or Seattle as your server location.
 - I used Ubuntu 18.04 so I recommend using that as well.
