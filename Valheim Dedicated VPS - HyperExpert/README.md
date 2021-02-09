@@ -30,7 +30,7 @@ sudo apt update && sudo apt upgrade -y
 
 Now you need to install the following software via `apt` one by one, some should be installed already, but we need to make sure:
 
--If you get an error after typing one of the follow commands that says "Unable to resolve host <your server name>" follow these steps:
+- If you get an error after typing one of the follow commands that says `Unable to resolve host <your server name>` follow these steps:
 
 type `sudo nano /etc/hosts` and below where it says `127.0.1.1` type `127.0.0.1` hit tab then type `<your server name>` (This is case sensitive)
 
@@ -89,6 +89,12 @@ Output for downloading:
  Update state (0x0) unknown, progress: 0.00 (0 / 0)
 Success! App '896660' fully installed.
 ```
+Once you see:
+```
+Steam>
+```
+Type `quit` and hit enter/return
+
 Now you can check the folder `/home/steam/valheim` to see it's content:
 ```bash
 ls -lha /home/steam/valheim
@@ -133,6 +139,7 @@ echo 1 > server_exit.drp
 echo "Server exit signal set"
 echo "You can now close this terminal"
 ```
+
 Replace using a text editor(anything from `vim`, `nano` etc, you can even download the file and reupload it:
 
 I used nano, to do this enter `nano start_server.sh` and use your arrow keys to navigate around to edit:
@@ -161,7 +168,46 @@ For this method you will want to get your servers IP address. It is located in t
 
 On your Steam Client, go to `View > Servers > FAVORITES` and click `ADD A SERVER` and add `<your_ip>:2457` then click `ADD THIS SERVER TO FAVORITES`, then it will appear in your list. Click connect and enter the password that you configured in the previous steps(`Step 6 - Step 7` the field `secret`), after that your game will start automatically then click `Start` in game, it will ask you for the password again and it should start your session.
 
-# THE END!
+
+# Updating
+To update follow the next steps.
+
+As `steam` user we will start the update process, and for this we need to link the steamcmd (in `steam` home directory):
+```bash
+ln -s /usr/games/steamcmd steamcmd
+```
+Running this command will take a while to download the update, but it's necessary:
+```
+steamcmd
+```
+After the download is complete, you will be prompted to the steamcmd command line:
+```
+Steam>
+```
+Valheim will allow you to download the dedicated server as an anonymous steam user. We will use the following command:
+```
+Steam> login anonymous
+```
+Output:
+```
+Connecting anonymously to Steam Public...Logged in OK
+Waiting for user info...OK
+```
+Now we want to update the server files and executables, so first of all we need the SteamAppId, in our case the ID is `896660` and you can check on https://steamdb.info/apps/ and search for "Valheim Dedicated Server".
+The command to update is:
+```
+Steam> app_update 896660 validate
+```
+Once you see:
+```
+Steam>
+```
+Type `quit` and hit enter/return
+
+Now you are done! Verify that your `start_server.sh` file still look right. If it doesn't you can update it or upload the backup you saved.
+
+# Congratulations you are done!
+
 Big shoutout to Skymoon for the help on this as well as [BrotherPatrix](https://github.com/BrotherPatrix) since I used his valheim server ubuntu tutorial as a template.
 
 
