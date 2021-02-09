@@ -34,6 +34,7 @@ Now you need to install the following software via `apt` one by one, some should
 
 type `sudo nano /etc/hosts` and below where it says `127.0.1.1` type `127.0.0.1` hit tab then type `<your server name>` (This is case sensitive)
 
+Then continue with installing the rest of these:
 ```
 sudo apt install software-properties-common
 sudo add-apt-repository multiverse
