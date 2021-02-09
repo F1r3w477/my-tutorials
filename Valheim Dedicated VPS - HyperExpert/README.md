@@ -172,11 +172,7 @@ On your Steam Client, go to `View > Servers > FAVORITES` and click `ADD A SERVER
 # Updating
 To update follow the next steps.
 
-As `steam` user we will start the update process, and for this we need to link the steamcmd (in `steam` home directory):
-```bash
-ln -s /usr/games/steamcmd steamcmd
-```
-Running this command will take a while to download the update, but it's necessary:
+Running this command will take a while to download any updates for steamcmd, but it's necessary:
 ```
 steamcmd
 ```
@@ -205,6 +201,8 @@ Steam>
 Type `quit` and hit enter/return
 
 Now you are done! Verify that your `start_server.sh` file still look right. If it doesn't you can update it or upload the backup you saved.
+
+Now you can start your server by doing `./start_server.sh`
 
 # Congratulations you are done!
 
