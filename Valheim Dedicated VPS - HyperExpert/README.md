@@ -1,11 +1,11 @@
-# How to create a dedicated Valheim server on a VPS through Hyper Expert
-This will most likely work on other VPS providers as well
+# How to create a dedicated Valheim server on a VPS
+This will most likely work on all VPS providers, however, I used [Hyper Expert](https://www.hyperexpert.com/hosting.php).
 
-## Prerequisites 
+## Prerequisites for Hyper Expert
 - Based in the United States (Recommended based on server locations)
 
-
-## Step 1 - Get a server from Hyper Expert
+## Step 1 - Get a VPS server! 1vCPU 3GB of RAM minimum. (May not support full 10 players, max tested on 3GB is 6)
+I got mine from from Hyper Expert, if you want one from them follow the steps below:
 Go to https://www.hyperexpert.com/hosting.php and select the VPS you want and configure. 
 - The bare minimum you should get is their VPS1 with 1vCPU, 3GB of RAM, 20GB storage on Pure SSD (You **MUST** configure the service to upgrade to 3GB) only $5.99 per month
 - Make sure you select New York or Seattle as your server location.
@@ -15,8 +15,8 @@ Go to https://www.hyperexpert.com/hosting.php and select the VPS you want and co
 I recommend [MobaXterm](https://mobaxterm.mobatek.net/download.html "MobaXterm Download")
 - Open MobaXterm and choose the "New session" button.
 - Remote host is your server IP.
-- You don't need to specify a user, however it will be `root`.
-- Your password will be in the email that you received. 
+- You don't need to specify a user, however it will be most likely be `root`, check your email to confirm.
+- Your password should be in the email that you received. 
 
 ## Step 3 - Update your system
 Before continuing, make sure you've updated you server by running the command:
