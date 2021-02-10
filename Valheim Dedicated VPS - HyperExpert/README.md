@@ -201,7 +201,11 @@ Steam>
 ```
 Type `quit` and hit enter/return
 
-Now you are done! Verify that your `start_server.sh` file still look right. If it doesn't you can update it or upload the backup you saved.
+Next enter `sudo su - steam` to sign in as the steam account
+
+Next you need to type `cd valheim` to get to the server folder
+
+Now you are done! Verify that your `start_server.sh` file still look right. (You can do `nano start_server.sh`) If it doesn't look right, you can update it or upload the backup you saved.
 
 Now you can start your server by doing `./start_server.sh`
 
