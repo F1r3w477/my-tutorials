@@ -173,34 +173,10 @@ On your Steam Client, go to `View > Servers > FAVORITES` and click `ADD A SERVER
 # Updating
 To update follow the next steps.
 
-Running this command will take a while to download any updates for steamcmd, but it's necessary:
+Running this command will take a while to download any updates for steamcmd, then it logs you in, installs the update and quits!:
 ```
-steamcmd
+steamcmd +login anonymous +force_install_dir /home/steam/valheim +app_update 896660 validate +quit
 ```
-After the download is complete, you will be prompted to the steamcmd command line:
-```
-Steam>
-```
-Valheim will allow you to download the dedicated server as an anonymous steam user. We will use the following command:
-```
-Steam> login anonymous
-```
-Output:
-```
-Connecting anonymously to Steam Public...Logged in OK
-Waiting for user info...OK
-```
-Now we want to update the server files and executables, so first of all we need the SteamAppId, in our case the ID is `896660` and you can check on https://steamdb.info/apps/ and search for "Valheim Dedicated Server".
-The command to update is:
-```
-Steam> app_update 896660 validate
-```
-Once you see:
-```
-Steam>
-```
-Type `quit` and hit enter/return
-
 Next enter `sudo su - steam` to sign in as the steam account
 
 Next you need to type `cd valheim` to get to the server folder
