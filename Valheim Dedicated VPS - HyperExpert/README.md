@@ -24,7 +24,7 @@ Before continuing, make sure you've updated you server by running the command:
 sudo apt update && sudo apt upgrade -y
 ```
 - You will get a popup window asking about restarting services. Choose `yes`
-- Later on you will get 2 more popup windows that should default to the second option to leave and use the current file, chose that for both.
+- Later on you will get 2 more popup windows that should default to the second option to keep the local version currently install, choose that for both.
 
 ## Step 4 - Software dependencies
 
