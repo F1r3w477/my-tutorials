@@ -175,9 +175,23 @@ This might not always work for others because your server might not be in their 
 - Method 2 - Steam Server List:
 For this method you will want to get your servers IP address. It is located in the email you got or in the service it self.
 
-On your Steam Client, go to `View > Servers > FAVORITES` and click `ADD A SERVER` and add `<your_ip>:2457` then click `ADD THIS SERVER TO FAVORITES`, then it will appear in your list. Click connect and enter the password that you configured in the previous steps(`Step 6 - Step 7` the field `secret`), after that your game will start automatically then click `Start` in game, it will ask you for the password again and it should start your session.
+On your Steam Client, go to `View > Servers > FAVORITES` and click `ADD A SERVER` and add `<server_ip>:2457` then click `ADD THIS SERVER TO FAVORITES`, then it will appear in your list. Click connect and enter the password that you configured in the previous steps(`Step 6 - Step 7` the field `secret`), after that your game will start automatically then click `Start` in game, it will ask you for the password again and it should start your session.
 
+# Starting your server
+First enter `sudo su - steam` to sign in as the steam account.
 
+Next you need to type `cd /home/steam/valheim` to get to the server folder.
+
+Now you are done! Verify that your `start_server.sh` file still look right. (You can do `nano start_server.sh`) If it doesn't look right, you can update it or upload the backup you saved.
+
+Now you can start your server by doing: `./start_server.sh`
+
+# Stopping your server
+If you just sshed in to your server (using MobaXterm or something else) you will need to reattach to your servers screen you made in step 7. To do this follow the steps below:
+- Enter `screen -r valheim`
+- That's it, pretty easy.
+
+Once you are able to see the server output you can just press Ctrl + C to stop the server.
 # Updating
 To update follow the next steps.
 
