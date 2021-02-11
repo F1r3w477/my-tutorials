@@ -157,9 +157,17 @@ On the VPS the server will take about 10-15 minutes to start. Just keep waiting,
 - Let the server start up once before transferring your world files to the server.
 
 Hit `RETURN`(also known as `Enter` key) if you want to stop the server.
-This is fine to get started as quick as possible, but I like to build a service around this just in case my server crashes and I want better control than just using the same command over and over again, so if you are interested, you might want to check `Step 7`.
 
-## Step 7 - Connecting to your server
+## Step 7 - Letting your server run when you aren't connected.
+First you need to stop your server and then follow the below steps:
+- a. Install screen `sudo apt install screen`
+- b. To start a screen session, simply type screen in your console and then hit enter when a window pops up.
+- c. Now create a screen for your server `screen -S valheim` after doing this your window should change and you should see `root@yourServerName:~#`.
+- d. Next enter `sudo su - steam` to sign in as the steam account.
+- e. Next you need to type `cd /home/steam/valheim` to get to the server folder again.
+- f. Now you can start your server by doing: `./start_server.sh`
+
+## Step 8 - Connecting to your server
 - Method 1 - In Game:
 You can search for the server in game on the `Join Game` tab, then check `Community` box and complete the search box with your server name.
 This might not always work for others because your server might not be in their region, but don't fear because we have another way so you might want to read `Method 2`.
@@ -177,13 +185,13 @@ Running this command will take a while to download any updates for steamcmd, the
 ```
 steamcmd +login anonymous +force_install_dir /home/steam/valheim +app_update 896660 validate +quit
 ```
-Next enter `sudo su - steam` to sign in as the steam account
+Next enter `sudo su - steam` to sign in as the steam account.
 
-Next you need to type `cd valheim` to get to the server folder
+Next you need to type `cd /home/steam/valheim` to get to the server folder.
 
 Now you are done! Verify that your `start_server.sh` file still look right. (You can do `nano start_server.sh`) If it doesn't look right, you can update it or upload the backup you saved.
 
-Now you can start your server by doing `./start_server.sh`
+Now you can start your server by doing: `./start_server.sh`
 
 # Congratulations you are done!
 
