@@ -161,11 +161,10 @@ Hit `RETURN`(also known as `Enter` key) if you want to stop the server.
 ## Step 7 - Letting your server run when you aren't connected.
 First you need to stop your server and then follow the below steps:
 - a. Install screen `sudo apt install screen`
-- b. To start a screen session, simply type screen in your console and then hit enter when a window pops up.
-- c. Now create a screen for your server `screen -S valheim` after doing this your window should change and you should see `root@yourServerName:~#`.
-- d. Next enter `sudo su - steam` to sign in as the steam account.
-- e. Next you need to type `cd /home/steam/valheim` to get to the server folder again.
-- f. Now you can start your server by doing: `./start_server.sh`
+- b. Next enter `sudo su - steam` to sign in as the steam account.
+- c. To start a screen session, simply type screen in your console and then hit enter when a window pops up.
+- d. screen -S valheim -d -m /home/steam/valheim/start_server.sh
+If you want to view the output of the server you can enter `screen -r valheim`
 
 ## Step 8 - Connecting to your server
 - Method 1 - In Game:
