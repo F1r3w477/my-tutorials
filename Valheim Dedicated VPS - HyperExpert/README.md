@@ -4,6 +4,11 @@ This will most likely work on all VPS providers, however, I used [Hyper Expert](
 ## Prerequisites for Hyper Expert
 - Based in the United States (Recommended based on server locations)
 
+## Benefits of a VPS
+- You can use it for other game services as long as the VPS matches requirements.
+- Less expensive, same performance.
+- You have full control.
+
 ## Step 1 - Get a VPS server! 1vCPU 3GB of RAM minimum. (May not support full 10 players, max tested on 3GB is 6 at day 100)
 I got mine from from Hyper Expert, if you want one from them follow the steps below:
 Go to [Hyper Expert](http://p.hyper.expert/aff.php?aff=138) and select Services > VPS & Bare Metal Servers, then select the VPS you want and configure it. 
