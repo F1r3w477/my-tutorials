@@ -147,7 +147,9 @@ echo "Server exit signal set"
 echo "You can now close this terminal"
 ```
 
-Replace using a text editor(anything from `vim`, `nano` etc, you can even download the file and reupload it:
+First, enter `cd /home/steam/valheim` to go to your server folder.
+
+Next, modify `start_server.sh` using a text editor(anything from `vim`, `nano` etc, you can even download the file and reupload it:
 
 I used nano, to do this enter `nano start_server.sh` and use your arrow keys to navigate around to edit:
 
