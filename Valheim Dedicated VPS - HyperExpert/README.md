@@ -170,7 +170,7 @@ Hit `RETURN`(also known as `Enter` key) if you want to stop the server.
 First you need to stop your server and then follow the below steps:
 - a. Install screen `sudo apt install screen`
 - b. Next enter `sudo su - steam` to sign in as the steam account.
-- c. To start a screen session, simply type screen in your console and then hit enter when a window pops up.
+- c. To start a screen session, simply type `screen` in your console and then hit enter when a window pops up.
 - d. Enter `screen -S valheim -d -m /home/steam/valheim/start_server.sh` to create a screen and start the server.
 If you want to view the output of the server you can enter `screen -r valheim`
 
