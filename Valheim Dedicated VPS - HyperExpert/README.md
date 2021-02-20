@@ -192,9 +192,11 @@ First enter `sudo su - steam` to sign in as the steam account.
 
 Next you need to type `cd /home/steam/valheim` to get to the server folder.
 
-Now you are done! Verify that your `start_server.sh` file still look right. (You can do `nano start_server.sh`) If it doesn't look right, you can update it or upload the backup you saved.
+Verify that your `start_server.sh` file still look right. (You can do `nano start_server.sh`) If it doesn't look right, you can update it or upload the backup you saved.
 
 Now you can start your server by doing: `./start_server.sh`
+
+Now you are done! Just wait for it to load!
 
 # Stopping your server
 If you just sshed in to your server (using MobaXterm or something else) you will need to reattach to your servers screen you made in step 7. To do this follow the steps below:
