@@ -184,7 +184,7 @@ This might not always work for others because your server might not be in their 
 - Method 2 - Steam Server List:
 For this method you will want to get your servers IP address. It is located in the email you got or in the service it self.
 
-On your Steam Client, go to `View > Servers > FAVORITES` and click `ADD A SERVER` and add `<server_ip>:2457` then click `ADD THIS SERVER TO FAVORITES`, then it will appear in your list. Click connect and enter the password that you configured in the previous steps(`Step 6 - Step 7` the field `secret`), after that your game will start automatically then click `Start` in game, it will ask you for the password again and it should start your session.
+On your Steam Client, go to `View > Servers > FAVORITES` and click `ADD A SERVER` and add `<server_ip>:2456` then click `ADD THIS SERVER TO FAVORITES`, then it will appear in your list. Click connect and enter the password that you configured in the previous steps(`Step 6 - Step 7` the field `secret`), after that your game will start automatically then click `Start` in game, it will ask you for the password again and it should start your session.
 
 # Adding your own worlds
 To do this you need to generate a world in single player in your game. After doing that you need to navigate to `/home/steam/.config/unity3d/IronGate/Valheim/worlds/` on the server and add your world files to there. (You need all the files that have your server name)
