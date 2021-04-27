@@ -20,7 +20,7 @@ Go to [Hyper Expert](http://p.hyper.expert/aff.php?aff=138) and select Services 
 - The bare minimum you should get is their VPS1 with 1vCPU, 3GB of RAM, 20GB storage on Pure SSD (You **MUST** configure the service to upgrade to 3GB) (Has a longer startup time. 15-20 minutes) only $5.99 per month
 - (Recommended) If you want more power (Confirmed 10 player support) as well as faster startup (Takes about 1-3 minutes to start instead of 15-20), get the VPS2 with 2vCPU, 4GB of RAM, 40GB storage on Pure SSD (You **MUST** configure the service to upgrade to 4GB) only $9.98 per month
 - Make sure you select New York or Seattle as your server location.
-- I used Ubuntu 18.04 so I recommend using that as well.
+- I used Ubuntu 18.04, but you can use 20.04 if you prefer, both options should work. (**You can always install a different version if you have issues**)
 
 ## Step 2 - Get your favorite SSH tool and SSH in.
 I recommend [MobaXterm](https://mobaxterm.mobatek.net/download.html "MobaXterm Download")
