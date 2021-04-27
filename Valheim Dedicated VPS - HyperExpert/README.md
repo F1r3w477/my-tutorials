@@ -11,7 +11,7 @@
 - Less expensive, same performance.
 - You have full control.
 
-## Step 1 - Get a VPS server! 1vCPU 3GB of RAM minimum. (May not support full 10 players, max tested on 3GB is 6 at day 100)
+## Step 1 - Get a VPS server! 1vCPU 3GB of RAM minimum. (Does not support full 10 players, max tested on 3GB is 6 at day 100)
 I got mine from from Hyper Expert, if you want one from them follow the steps below:
 Go to [Hyper Expert](http://p.hyper.expert/aff.php?aff=138) and select Services > VPS & Bare Metal Servers, then select the VPS you want and configure it. 
 - The bare minimum you should get is their VPS1 with 1vCPU, 3GB of RAM, 20GB storage on Pure SSD (You **MUST** configure the service to upgrade to 3GB) (Has a longer startup time. 15-20 minutes) only $5.99 per month
