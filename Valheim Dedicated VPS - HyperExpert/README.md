@@ -1,6 +1,7 @@
 # How to create a dedicated Valheim server on a VPS
 - This will most likely work on all VPS providers, however, I used [Hyper Expert](http://p.hyper.expert/aff.php?aff=138). If you want to know more about them go to the [Hyper Expert Discord](https://discord.gg/wFvF43C) 
 - If you are EU based this might not be the best option, as the EU VPS servers can be quite expensive. If you are in the EU and don't want to spend a lot of time shopping around I would recommend a "one click" hosting provider, such as gportal, survival servers, etc..
+- If you would like to shop around for a VPS provider in the EU/Other, I recommend using [LowEndTalk](https://www.lowendtalk.com/) to find a good deal. Look for a KVM VPS in a region near you.
 - This guide should also work for a standard linux setup as well, however, you will need to do port forwarding yourself.
 
 ## Prerequisites for Hyper Expert
@@ -10,6 +11,8 @@
 - You can use it for other game services as long as the VPS matches requirements.
 - Less expensive, same performance.
 - You have full control.
+- Can be used for other games and services.
+- No port forwarding required.
 
 ## Step 1 - Get a VPS server! 1vCPU 3GB of RAM minimum. (Does not support full 10 players, max tested on 3GB is 6 at day 100)
 I got mine from from Hyper Expert, if you want one from them follow the steps below:
