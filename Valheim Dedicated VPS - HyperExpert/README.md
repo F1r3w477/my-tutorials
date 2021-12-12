@@ -227,9 +227,11 @@ Now you are done! Verify that your `start_server.sh` file still look right. (You
 
 Now you can start your server by doing: `./start_server.sh`
 
-# Congratulations you are done!
+# Backing up your world
+Navigate to `/home/steam/.config/unity3d/IronGate/Valheim/worlds/` on the server and download your world files from there. (You need all the files that have your server name)
+
+- These files should be the only files that are necessary for a backup. A users local machine will store a players inventory and other information. To revert to this backup, follow the steps above in the `Adding your own worlds` section. 
+
+# Congratulations you are are now an expert!
 
 Big shoutout to Skymoon for the help on this as well as [BrotherPatrix](https://github.com/BrotherPatrix) since I used his valheim server ubuntu tutorial as a template.
-
-
-
