@@ -217,7 +217,7 @@ To update follow the next steps.
 
 Running this command will take a while to download any updates for steamcmd, then it logs you in, installs the update and quits!:
 ```
-steamcmd +login anonymous +force_install_dir /home/steam/valheim +app_update 896660 validate +quit
+steamcmd +force_install_dir +login anonymous /home/steam/valheim +app_update 896660 validate +quit
 ```
 Next enter `sudo su - steam` to sign in as the steam account.
 
