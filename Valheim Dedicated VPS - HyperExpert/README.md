@@ -23,8 +23,8 @@ Go to [Hyper Expert](http://p.hyper.expert/aff.php?aff=138) and select Services 
 - I used Ubuntu 18.04, but you can use 20.04 if you prefer, both options should work. (**You can always install a different version if you have issues**)
 
 ## Step 2 - Get your favorite SSH tool and SSH in.
-I recommend [MobaXterm](https://mobaxterm.mobatek.net/download.html "MobaXterm Download")
-- Open MobaXterm and choose the "New session" button.
+I recommend [MobaXterm](https://mobaxterm.mobatek.net/download.html "MobaXterm Download") *Note: Not available on Linux. On Linux you can try using Open SSH or PuTTY.
+- Open MobaXterm (or your favorite SSH tool) and choose the "New session" button (or equivalent in your tool).
 - Remote host is your server IP.
 - You don't need to specify a user, however it will be most likely be `root`, check your email to confirm.
 - Your password should be in the email that you received. 
