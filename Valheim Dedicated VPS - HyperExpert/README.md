@@ -1,11 +1,8 @@
 # How to create a dedicated Valheim server on a VPS
-- This will most likely work on all VPS providers, however, I used [Hyper Expert](http://p.hyper.expert/aff.php?aff=138). If you want to know more about them go to the [Hyper Expert Discord](https://discord.gg/wFvF43C) 
+- This will most likely work on all VPS providers
 - If you are EU based this might not be the best option, as the EU VPS servers can be quite expensive. If you are in the EU and don't want to spend a lot of time shopping around I would recommend a "one click" hosting provider, such as gportal, survival servers, etc..
-- If you would like to shop around for a VPS provider in the EU/Other, I recommend using [LowEndTalk](https://www.lowendtalk.com/) to find a good deal. Look for a KVM VPS in a region near you.
+- If you would like to shop around for a VPS provider in the EU/Other, I recommend using [LowEndBox](https://lowendbox.com/best-cheap-vps-hosting-updated-2020/) to find a good deal. Look for a KVM VPS in a region near you.
 - This guide should also work for a standard linux setup as well, however, you will need to do port forwarding yourself.
-
-## Prerequisites for Hyper Expert
-- Based in the United States (Recommended based on server locations)
 
 ## Benefits of a VPS
 - You can use it for other game services as long as the VPS matches requirements.
@@ -15,12 +12,11 @@
 - No port forwarding required.
 
 ## Step 1 - Get a VPS server! 1vCPU 3GB of RAM minimum. (Does not support full 10 players, max tested on 3GB is 6 at day 100)
-I got mine from from Hyper Expert, if you want one from them follow the steps below:
-Go to [Hyper Expert](http://p.hyper.expert/aff.php?aff=138) and select Services > VPS & Bare Metal Servers, then select the VPS you want and configure it. 
-- The bare minimum you should get is their VPS1 with 1vCPU, 3GB of RAM, 20GB storage on Pure SSD (You **MUST** configure the service to upgrade to 3GB) (Has a longer startup time. 15-20 minutes) only $5.99 per month
-- (Recommended) If you want more power (Confirmed 10 player support) as well as faster startup (Takes about 1-3 minutes to start instead of 15-20), get the VPS2 with 2vCPU, 4GB of RAM, 40GB storage on Pure SSD (You **MUST** configure the service to upgrade to 4GB) only $9.98 per month
-- Make sure you select New York or Seattle as your server location.
-- I used Ubuntu 18.04, but you can use 20.04 if you prefer, both options should work. (**You can always install a different version if you have issues**)
+Go to [LowEndBox](https://lowendbox.com/best-cheap-vps-hosting-updated-2020/) (or your favorite VPS provider) and search for VPS options that match the below specs  
+- The bare minimum you should get is a VPS with 1vCPU, 3GB of RAM, 20GB storage on Pure SSD (Has a longer startup time. 15-20 minutes)
+- (Recommended) If you want more power (Confirmed 10 player support) as well as faster startup (Takes about 1-3 minutes to start instead of 15-20), get a VPS with 2vCPU, 4GB of RAM, 40GB storage on an SSD
+- Make sure you select a server location in the region closest to the players on the server.
+- Install any Ubuntu options above 18.04. (**You can always install a different version if you have issues**)
 
 ## Step 2 - Get your favorite SSH tool and SSH in.
 I recommend [MobaXterm](https://mobaxterm.mobatek.net/download.html "MobaXterm Download") *Note: Not available on Linux. On Linux you can try using Open SSH or PuTTY.
